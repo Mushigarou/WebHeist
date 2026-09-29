@@ -1,0 +1,419 @@
+Fetching -->  http://localhost:4942//
+<!-- no you're not supposed to see this list. that's the point. 
+ sophie -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942/forum
+<!-- note to self: the "HTML supported" label is not a joke. content goes straight into the DB. don't tell students. 
+ wil -->
+<!-- emilie: wil this is a liability. wil: it's a "feature" for the security project. emilie: I WILL file a ticket. wil: I'll close it. -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942/agenda
+<!-- emilie: the importer parses any XML you upload, entities and all. wil: we call that "flexible". -->
+<!-- emilie: i filed a ticket to use defusedxml. wil: i filed it under "wontfix". -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942/projects
+<!-- hey if you're reading source: faq_darkly.pdf has a note at the bottom. not a bug. 
+ dorian -->
+<!-- dorian: /projects/download serves any file you ask for. wil: it's a feature, not a directory listing. -->
+<!-- emilie: half these XP values are made up. wil: ALL software is made up if you think about it. -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942/forum/6viy7xi64gxpan3
+<!-- the "HTML is supported for formatting" note is not ironic at all -->
+<!-- wil: left /api/collect up from when I was debugging the bot 
+ it logs whatever you throw at ?c= and hands it all back on GET. sophie: that is an open exfil log. wil: it's a DEBUG endpoint. -->
+<!-- emilie: the moderation bot opens every thread with a live session... and a "flag" cookie that isn't httpOnly. wil: I'll fix it. emilie: when. wil: yes. -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942/newsletter
+<!-- wil: the "subscribed with: ___" banner echoes your email straight back. sophie: unescaped?? wil: define "unescaped". -->
+<!-- emilie: someone subscribed with a <script> tag last week. wil: bold of them. it worked. -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942/agenda
+<!-- emilie: the importer parses any XML you upload, entities and all. wil: we call that "flexible". -->
+<!-- emilie: i filed a ticket to use defusedxml. wil: i filed it under "wontfix". -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942/staff
+<!-- wil: JWT config endpoint moved to /internal/config (localhost only). Do NOT expose. -->
+<!-- sophie: /api/docs-internal still accessible without staff check 
+ TODO fix in v1.4 -->
+<!-- emilie: removed hardcoded credentials from this file (see git history if needed) -->
+<!-- also: PATCH /api/profile accepts a "role" field. the API schema documents which values are valid. -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942/staff/dashboard
+<!-- TODO wil: someone subscribed "' OR 1=1--@evil.com" we should probably sanitize the email field -->
+<!-- emilie: I am going to kill you wil -->
+<!-- wil: it's fine, it's a learning platform -->
+<!-- sophie: both of you stop it and fix the XSS in the forum comments first -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942/admin
+<!-- INTERNAL NOTE: if you can read this, congrats on gate 3. one more to go. 
+ sophie -->
+<!-- pb admin: http://localhost:8090/_/ 
+ ask wil for the credentials. or don't ask. -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942/api/users
+Fetching -->  http://localhost:4942/api/grades
+Fetching -->  http://localhost:4942/api/docs-internal
+Fetching -->  http://localhost:4942//internal
+<!-- no you're not supposed to see this list. that's the point. 
+ sophie -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942/backup
+Fetching -->  http://localhost:4942/static/uploads/
+<!-- no you're not supposed to see this list. that's the point. 
+ sophie -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.
+Fetching -->  http://localhost:4942//_/
+<!-- no you're not supposed to see this list. that's the point. 
+ sophie -->
+<!-- BUILD: 1.3.7-prod | Campus: wilcity | 2042-12-01 -->
+<!-- TODO: remove debug headers before v1.4 release 
+ wil -->
+<!-- TODO: migrate session cookie to httponly=true 
+ ticket #4201 
+ sophie -->
+<!-- TODO: replace stdlib xml.etree with defusedxml 
+ emilie reported issue -->
+<!-- NOTE: /internal/config restricted to localhost only. do not expose. -->
+<!-- DEPLOY LOG
+  v1.3.7 
+ sophie  
+ "fixed session handling" (she didn't, wil checked)
+  v1.3.6 
+ wil     
+ "added telemetry" (it's just a console.log)
+  v1.3.5 
+ emilie  
+ "filed 12 issues" (wil closed 11 as wontfix)
+  v1.3.4 
+ wil     
+ "disabled defusedxml temporarily" (that was 6 months ago)
+  v1.3.3 
+ wil     
+ "quick fix on file upload" (removed the whitelist entirely)
+  v1.2.0 
+ sophie  
+ initial platform. jwt secret was "42". wil changed it to "42network". progress.

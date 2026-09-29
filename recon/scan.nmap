@@ -1,0 +1,8 @@
+# Nmap 7.94SVN scan initiated Sun Aug  9 18:16:34 2026 as: nmap -sS -p 4942 -oA jh 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00012s latency).
+
+PORT     STATE SERVICE
+4942/tcp open  eq-office-4942
+
+# Nmap done at Sun Aug  9 18:16:34 2026 -- 1 IP address (1 host up) scanned in 0.07 seconds

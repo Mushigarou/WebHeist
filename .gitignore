@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Must never be committed (subject: "cannot include ANY binaries") ---
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.so
+
+# --- Downloaded during evaluation, not stored in the repo (subject p.7) ---
+rockyou.txt
+**/rockyou.txt
+
+# --- OS / editor noise ---
+.DS_Store
+*.swp
+.idea/
+.vscode/
