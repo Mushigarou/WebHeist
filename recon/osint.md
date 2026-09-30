@@ -58,7 +58,7 @@ darkly42.wil()     → "I'll fix it next sprint. Next sprint has been Q1 2042."
 ```
 
 ## Users found
-`benjamin` · `dorian` · `ol` · `emilie` · `wil` · `jdoe` · `asmith` · `bmartin`
+`benjamin` · `dorian` · `ol` · `emilie` · `wil` · `jdoe` · `asmith` · `bmartin` · `sophie`
 
 ## In-app hints
 - "The rabbit hole starts where the robots tell you not to go."

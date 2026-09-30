@@ -15,5 +15,6 @@
 Strip `../`, resolve the real path, confine to the allowed folder.
 
 ## References
+- OWASP 2025: [A01 Broken Access Control](https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/)
 - OWASP: https://owasp.org/www-community/attacks/Path_Traversal
 - Related: [pocketbase-admin](../pocketbase-admin/explanation.md) · [xxe](../xxe/explanation.md)

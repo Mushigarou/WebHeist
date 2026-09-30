@@ -13,5 +13,6 @@
 Whitelist real image types (check content); store non-executable, outside web root.
 
 ## References
+- OWASP 2025: [A06 Insecure Design](https://owasp.org/Top10/2025/A06_2025-Insecure_Design/)
 - OWASP: https://owasp.org/www-community/attacks/Unrestricted_File_Upload
 - Related: [xxe](../xxe/explanation.md)

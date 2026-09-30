@@ -1,4 +1,4 @@
-# Darkly — Combined Walkthrough
+# WebHeist — Combined Walkthrough
 
 Audit of `http://localhost:4942` (and its PocketBase backend on `:8090`).
 Full per-breach detail is in each folder's `explanation.md`; this ties them together.
@@ -35,4 +35,4 @@ Full per-breach detail is in each folder's `explanation.md`; this ties them toge
 | `FLAG{unr3str1ct3d_upl0ad_g0_brrr}` | file-upload |
 | `FLAG{th3_und3rsc0r3_sl4sh_kn0ws_th3_w4y}` | pocketbase-admin |
 
-**11 vulnerabilities** documented (mandatory needs 10) · **8 flags** (mandatory needs 6).
+**11 vulnerabilities** documented · **8 flags** recovered.

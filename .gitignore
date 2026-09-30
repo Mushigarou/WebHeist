@@ -217,7 +217,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# --- Must never be committed (subject: "cannot include ANY binaries") ---
+# --- Must never be committed (no binaries in the repo) ---
 .venv/
 **/.venv/
 __pycache__/
@@ -226,7 +226,7 @@ __pycache__/
 *.pyo
 *.so
 
-# --- Downloaded during evaluation, not stored in the repo (subject p.7) ---
+# --- Downloaded when needed, not stored in the repo ---
 rockyou.txt
 **/rockyou.txt
 
@@ -235,3 +235,5 @@ rockyou.txt
 *.swp
 .idea/
 .vscode/
+# PDFs (binary — keep locally, never commit)
+*.pdf

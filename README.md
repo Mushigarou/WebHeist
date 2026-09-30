@@ -1,8 +1,8 @@
-# Darkly — 42 Web Security Audit
+# WebHeist
 
-Security audit of the **Darkly** platform served at `http://localhost:4942`
-(VirtualBox appliance). Each breach lives in its own folder and follows the
-subject layout: an exploit script, an `explanation.md`, a `flag` file when the
+Security audit of a deliberately vulnerable web app served at `http://localhost:4942`
+(VirtualBox appliance). Each breach lives in its own folder with the same
+layout: an exploit script, an `explanation.md`, a `flag` file when the
 breach yields one, and a `Resources/` folder for supporting material. A combined
 [`walkthrough.md`](walkthrough.md) ties everything together.
 
@@ -35,8 +35,7 @@ breach yields one, and a `Resources/` folder for supporting material. A combined
 
 > Reference: [OWASP Top 10:2025](https://owasp.org/Top10/2025/).
 
-**8 flags recovered** (mandatory needs 6). **11 vulnerabilities** documented
-(mandatory needs 10).
+**11 vulnerabilities** documented, **8 flags** recovered.
 
 ## Reconnaissance
 See [`recon/`](recon/) — HTTP/source recon (`osint.md`), scripted comment
@@ -48,6 +47,5 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-> `.venv/` and `rockyou.txt` are **git-ignored** on purpose: the subject forbids
-> committing binaries, and downloaded files (the wordlist) must be fetched at
-> evaluation time, not stored in the repo.
+> `.venv/` and `rockyou.txt` are **git-ignored** on purpose: no binaries in the
+> repo, and the wordlist is downloaded when needed instead of being stored here.

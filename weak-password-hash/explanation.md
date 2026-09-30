@@ -4,8 +4,9 @@ Passwords use unsalted MD5 and the app exposes the hash (`pw_hint`), so weak one
 
 ## How I found it (staff dashboard, forum)
 - A forum/source comment said the hint is just md5.
-- As god, `/staff/dashboard` lists users' `pw_hint` (16-char md5 prefix) → `target.txt`.
+- As staff (cadet+), `/staff/dashboard` lists users' `pw_hint` (16-char md5 prefix) → `target.txt`.
 - Cracked with rockyou → jdoe `123456`, benjamin `b3njamin!`.
+- The `flag` shows in the `/staff/dashboard` users table **and** is served directly by `GET /api/grades` to any logged-in session (no cracking required) — `exploit.py` only demonstrates the weak hashing.
 
 ## Exploit
 `python3 exploit.py` (reads `Resources/rockyou.txt`).

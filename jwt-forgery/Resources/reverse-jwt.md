@@ -6,16 +6,16 @@
 ## wil (staff)
 ```json
 { "alg": "HS256", "typ": "JWT" }
-{ "sub": "k1asdfeditojrb4", "login": "will", "role": "staff", "exp": 1790871002 }
+{ "sub": "k1asdfeditojrb4", "login": "wil", "role": "staff", "exp": 1791332489 }
 ```
 ```
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrMWFzZGZlZGl0b2pyYjQiLCJsb2dpbiI6IndpbGwiLCJyb2xlIjoic3RhZmYiLCJleHAiOjE3OTA4NzEwMDJ9.1aWWm7TEUAF2mUb3w1NNrSAKqsvQb5pSzUmBNIEUWo0
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrMWFzZGZlZGl0b2pyYjQiLCJsb2dpbiI6IndpbCIsInJvbGUiOiJzdGFmZiIsImV4cCI6MTc5MTMzMjQ4OX0.HHnmW9w7RmQVlnvMV9T1d1eyBNC_Y6WqXu04VkqGIs4
 ```
 
 ## sophie (god)
 ```json
-{ "sub": "enplwhu8jfo56oi", "login": "sophie", "role": "god", "exp": 1790871002 }
+{ "sub": "enplwhu8jfo56oi", "login": "sophie", "role": "god", "exp": 1791332489 }
 ```
 ```
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlbnBsd2h1OGpmbzU2b2kiLCJsb2dpbiI6InNvcGhpZSIsInJvbGUiOiJnb2QiLCJleHAiOjE3OTA4NzEwMDJ9.X7OSKsd2xJtp6-He_L76g15n6XGV0hgnZ4HqdvshlEU
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlbnBsd2h1OGpmbzU2b2kiLCJsb2dpbiI6InNvcGhpZSIsInJvbGUiOiJnb2QiLCJleHAiOjE3OTEzMzI0ODl9.U2Hj4hrZJ0moUR6Cky3NLisbbutSiTUeO6sOJzUq_pk
 ```
